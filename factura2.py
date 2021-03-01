@@ -6,9 +6,8 @@ import json
 from ftplib import FTP
 
 import codecs
-#import conexio
 
-#import ebcdic
+
 
 
     
