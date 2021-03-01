@@ -350,32 +350,6 @@ facturasJSON()
 
 
 
-'''
-server = '80.28.249.31'
-user = 'nando'
-clau = 'guardiola'
-origen = '/QIBM/gasvis/json/'
-destino = 'ficheros/'
-
-print("descargando")
-descargarFicheros(server, user, clau, origen, destino)
-print("descargado")
-formatos()
-'''
-
-
-
-'''
-server = '80.28.249.31'
-user = 'nando'
-clau = 'guardiola'
-origen = '/QIBM/gasvis/json/'
-destino = 'ficheros/'
-
-print("descargando")
-descargarFicheros(server, user, clau, origen, destino)
-print("descargado")
-'''
 
 #inicializar()
 
