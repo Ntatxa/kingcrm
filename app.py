@@ -15,6 +15,7 @@ session = sessionmaker(engine)()
 Base = declarative_base()
 
 
+
 class Cliente(Base):
     __tablename__ = 'clientes'
     id = Column(Integer, primary_key=True)
