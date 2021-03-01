@@ -238,7 +238,6 @@ class FacturaPdf:
         self.pdf.line(105, self.yLinea, 110, self.yLinea)
         
         
-        
         self.yLinea = 70
         self.pdf.text(10, self.yLinea, self.jsonDecoded["codigoCliente"])
         self.pdf.text(42, self.yLinea, self.jsonDecoded["agente"])
