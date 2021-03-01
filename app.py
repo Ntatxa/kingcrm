@@ -8,7 +8,6 @@ from sqlalchemy.ext.declarative import declarative_base
 
 import factura
 import os
-#from datetime import datetime
 
 engine = create_engine("sqlite:///data.sqlite")
 session = sessionmaker(engine)()
